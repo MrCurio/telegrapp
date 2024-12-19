@@ -5,17 +5,16 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Img: require('@site/static/img/woman1.png').default, // PNG instead of SVG
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        hola mamawebo
       </>
     ),
   },
   {
     title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Img: require('@site/static/img/woman2.png').default, // PNG instead of SVG
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -25,7 +24,7 @@ const FeatureList = [
   },
   {
     title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Img: require('@site/static/img/man.png').default, // PNG instead of SVG
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -35,11 +34,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Img, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+      <img src={Img} className={styles.featureImg} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

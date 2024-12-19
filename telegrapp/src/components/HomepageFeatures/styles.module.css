@@ -9,3 +9,17 @@
   height: 200px;
   width: 200px;
 }
+
+/* Base image styles */
+.featureImg {
+  width: 250px;   /* Fixed width */
+  height: auto;   /* Maintain aspect ratio */
+  object-fit: contain;  /* Keep the image proportional */
+  margin: 0 auto;  /* Center the image */
+  transition: transform 0.3s ease, filter 0.3s ease;  /* Smooth animation */
+}
+
+/* Hover effect */
+.featureImg:hover {
+  transform: scale(1.1);   /* Enlarge the image */
+}

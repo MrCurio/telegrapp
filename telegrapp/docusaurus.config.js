@@ -72,7 +72,7 @@ const config = {
         title: 'TelegrApp',
         logo: {
           alt: 'TelegrApp Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo_innexum.png',
         },
         items: [
           {
