@@ -3,7 +3,14 @@ sidebar_label: 'How to Install the App'
 sidebar_position: 1
 ---
 
+import GlobalLink from '../../src/components/GlobalLink';
+
 # How to Install the App
+
+:::tip
+<GlobalLink>Click here if you want to Install the App Now</GlobalLink>
+:::
+
 
 Installing TelegrApp in GHL sub-accounts:
 
