@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktelegrapp=self.webpackChunktelegrapp||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/telegrapp/blog","blogTitle":"Blog","authorsListPath":"/telegrapp/blog/authors"}')}}]);
