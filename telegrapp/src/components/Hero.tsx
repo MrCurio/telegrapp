@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import '../../static/css/components.css';
 import { SiReact, SiIos } from 'react-icons/si';
 import { FaTelegramPlane } from "react-icons/fa";
+import { RiTelegram2Fill } from "react-icons/ri";
 import {
   MdLaptopMac,
   MdAndroid,
@@ -33,7 +34,7 @@ const Home: React.FunctionComponent<{}> = () => {
             style={{ alignItems: 'center' }}
           >
             <div className="col col--3 col--offset-1">
-              <img className="rne-hero-logo" src="/img/website/logo.png" />
+              <RiTelegram2Fill className="rne-hero-logo" size={300} color="#0088cc" />
             </div>
             <div className="col col--6 col--offset-1">
               <h1 className="hero__title">
@@ -48,7 +49,7 @@ const Home: React.FunctionComponent<{}> = () => {
                     'button button--primary margin-vert--sm margin-right--md '
                   }
                   style={{ color: 'white' }}
-                  to={useBaseUrl('/docs')}
+                  to={useBaseUrl('/docs/welcome')}
                 >
                   Install Now
                 </Link>
