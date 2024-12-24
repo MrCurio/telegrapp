@@ -65,6 +65,13 @@
   transition: 0.2s;
 }
 
+.card__body h4 {
+  font-size: 1.25rem; /* Increase title size */
+  font-weight: bold;  /* Optional: Make the title bolder */
+  margin-top: 0.75rem; /* Add spacing above the title */
+  margin-bottom: 0.75rem; /* Add spacing below the title */
+}
+
 .card:hover {
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
     0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035),
@@ -76,10 +83,12 @@
   fill: var(--ifm-hero-background-color);
 }
 
+
+
+
 .p--desc {
   opacity: 0.7;
-  /* font-weight: 600; */
-  /* font-size: small; */
+  font-weight: 600; 
   line-height: 24px;
 }
 

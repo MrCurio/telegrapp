@@ -697,10 +697,21 @@ a.card:hover {
     0 0 0 1px var(--ifm-color-primary) !important;
 }
 
-.row.is-multiline .col {
-  margin-top: var(--ifm-spacing-horizontal) !important;
-  margin-bottom: var(--ifm-spacing-horizontal) !important;
+/* Center cards in the row */
+.row.is-multiline {
+  display: flex;
+  justify-content: center; /* Center the cards horizontally */
+  flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+  gap: var(--ifm-spacing-horizontal); /* Add spacing between cards */
 }
+
+/* Reset the column flex settings */
+.row.is-multiline .col[class*='col--'] {
+  flex: 0 0 auto; /* Allow columns to size automatically based on content */
+  max-width: 300px; /* Optional: Limit the width of each card */
+  margin: 0; /* Remove extra margins */
+}
+
 @media screen and (max-width: 996px) {
 }
 
