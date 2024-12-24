@@ -89,7 +89,7 @@ const Home: React.FunctionComponent<{}> = () => {
       <div className="container">
         <div className="row is-multiline">
           {features.map(({ title, description, img, color }, index) => (
-            <div className="col col--3" key={index}>
+            <div className="col col--4" key={index}>
               <Link className="card shadow--md" style={{ height: '100%' }}>
                 <div className="card__body">
                   <h4 className="gradient clip-text inline-flex-center">
