@@ -19,16 +19,16 @@ type FeatureTypes = {
 
 const features: FeatureTypes[] = [
   {
-    title: 'Cross-Platform',
+    title: 'Easy to use',
     description:
-      'Consistent design across android, iOS, and web. 30+ components designed to save development time.',
+      'Just press under Install Now and select the subaccount. Just like that.',
     img: MdOutlineDevices,
     color: '#894cff',
   },
   {
-    title: 'Easy to use',
+    title: 'Increase Opportunities',
     description:
-      'Built completely in TypeScript. Starting your react native app has never been easier. Supports Expo too! ',
+      'Through automated tasks like posting in channels, bulk messaging or adding contacts to groups, you will increase your business leads and ',
     img: MdCode,
     color: '#ff5381',
   },
@@ -102,7 +102,7 @@ const Home: React.FunctionComponent<{}> = () => {
                   </h4>
                   <p
                     className="p--desc"
-                    style={{ lineHeight: 1.4, fontSize: '0.8rem' }}
+                    style={{ lineHeight: 1.4, fontSize: '1rem' }}
                   >
                     {description}
                   </p>
