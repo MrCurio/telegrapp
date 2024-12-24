@@ -4,6 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Link from '@docusaurus/Link';
 import '../../static/css/components.css';
 import { SiReact, SiIos } from 'react-icons/si';
+import { FaTelegramPlane } from "react-icons/fa";
 import {
   MdLaptopMac,
   MdAndroid,
@@ -14,6 +15,15 @@ import {
 const Home: React.FunctionComponent<{}> = () => {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
+  // Define positions for each icon
+  const positions = [
+    { left: 80, top: '20%' },
+    { bottom: 200, right: '5%' },
+    { left: 20, top: '70%' },
+    { right: '40%', bottom: 90 },
+    { left: '40%', top: 180 },
+    { right: 270, top: 140 },
+  ];
   return (
     <section>
       <header className="hero">
@@ -27,12 +37,10 @@ const Home: React.FunctionComponent<{}> = () => {
             </div>
             <div className="col col--6 col--offset-1">
               <h1 className="hero__title">
-                Cross Platform <br />
-                <span className="gradient clip-text">React Native</span> UI
-                toolkit
+                Introducing <span className="gradient clip-text">TelegrApp</span>
               </h1>
               <h3 className="">
-                A React Native framework for making cross platform applications
+                A new GoHighLevel integration for Telegram
               </h3>
               <div>
                 <Link
@@ -42,7 +50,7 @@ const Home: React.FunctionComponent<{}> = () => {
                   style={{ color: 'white' }}
                   to={useBaseUrl('/docs')}
                 >
-                  Get Started
+                  Install Now
                 </Link>
 
                 <Link
@@ -51,7 +59,7 @@ const Home: React.FunctionComponent<{}> = () => {
                   }
                   to={'https://github.com/sponsors/react-native-elements'}
                 >
-                  Sponsor us 💖
+                  More Information
                 </Link>
                 <Link
                   className={
@@ -59,27 +67,15 @@ const Home: React.FunctionComponent<{}> = () => {
                   }
                   to={'https://react-native-elements.js.org'}
                 >
-                  Playground 🚀
+                  Quick Setup Guide
                 </Link>
               </div>
-              <div className="ball" style={{ left: 80, top: '20%' }}>
-                <SiReact />
-              </div>
-              <div className="ball" style={{ bottom: 200, right: '5%' }}>
-                <MdAccessibleForward />
-              </div>
-              <div className="ball" style={{ left: 20, top: '70%' }}>
-                <MdInvertColors />
-              </div>
-              <div className="ball" style={{ right: '40%', bottom: 90 }}>
-                <MdAndroid />
-              </div>
-              <div className="ball" style={{ left: '40%', top: 180 }}>
-                <SiIos />
-              </div>
-              <div className="ball" style={{ right: 270, top: 140 }}>
-                <MdLaptopMac />
-              </div>
+              {/* Dynamically render the FaTelegramPlane icons */}
+              {positions.map((style, index) => (
+                <div key={index} className="ball" style={style}>
+                  <FaTelegramPlane />
+                </div>
+              ))}
             </div>
           </div>
         </div>
