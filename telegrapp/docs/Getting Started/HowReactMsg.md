@@ -4,7 +4,7 @@ sidebar_position: 4
 ---
 
 
-# Reacting to Telegram Messages with TelegrApp Integration
+# Reacting to Telegram Messages with TelegrApp
 
 With the **TelegrApp** integration, you can react to Telegram messages automatically using the Workflow Automation feature. This feature allows you to add reactions to messages, enhancing the sense of human interaction and improving engagement with your contacts.
 

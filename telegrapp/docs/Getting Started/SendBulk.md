@@ -3,7 +3,7 @@ sidebar_label: 'How to Send Bulk Messages'
 sidebar_position: 5
 ---
 
-# How to Send Bulk Messages with TelegrApp Integration
+# How to Send Bulk Messages with TelegrApp
 
 The **TelegrApp** integration supports sending bulk messages to Telegram chats, groups, and channels. This feature allows you to efficiently communicate with multiple contacts by combining Workflow Automations with your Gohighlevel contact management.
 

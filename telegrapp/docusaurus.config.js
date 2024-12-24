@@ -66,6 +66,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        { name: 'keywords', content: 'Telegrapp, GHL, Telegram, GoHighLevel, Telegram integration, telegrapp marketplace, marketing automation, messaging platform, automation tools, customer communication, workflow automation' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'description', content: 'Telegrapp integrates Telegram with GoHighLevel, enhancing your CRM and marketing automation with seamless messaging and workflow automation.' },
+        { name: 'og:title', content: 'Telegrapp - Telegram Integration for GoHighLevel' },
+        { name: 'og:description', content: 'Unlock the power of Telegram and GoHighLevel with Telegrapp. Automate workflows, enhance customer communication, and drive more leads with seamless integration.' },
+        { name: 'og:type', content: 'website' },
+        { name: 'og:image', content: 'https://docs.innexumtech.com/assets/images/woman1-effa7db56e960c75b3631222fbf8c771.png' },
+      ],
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -92,7 +101,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/welcome',
               },
             ],
           },
@@ -137,6 +146,30 @@ const config = {
     customFields: {
       installURL: "https://marketplace.gohighlevel.com/oauth/chooselocation?response_type=code&redirect_uri=https://h2kpdhe0di.execute-api.eu-north-1.amazonaws.com/Demo_API/install?appname=telegrapp&client_id=6717d4505b79c6aec3777051-m2ko6xxk&scope=conversations.readonly%20conversations.write%20conversations/message.readonly%20conversations/message.write%20conversations/reports.readonly%20locations.readonly%20workflows.readonly%20businesses.readonly%20businesses.write%20contacts.readonly%20contacts.write%20objects/schema.readonly%20objects/schema.write%20objects/record.readonly%20objects/record.write%20forms.readonly%20forms.write%20locations/customValues.readonly%20locations/customValues.write%20locations/customFields.readonly%20locations/customFields.write%20locations/tasks.readonly%20locations/tasks.write%20locations/tags.readonly%20locations/tags.write%20medias.readonly%20medias.write%20users.readonly%20users.write",
     },
+    headTags: [
+      // Declare some json-ld structured data for the app
+      {
+        tagName: 'script',
+        attributes: {
+          type: 'application/ld+json',
+        },
+        innerHTML: JSON.stringify({
+          '@context': 'https://schema.org/',
+          '@type': 'SoftwareApplication',
+          name: 'Telegrapp',
+          url: 'https://docs.innexumtech.com/',
+          description: 'Telegrapp integrates Telegram into GoHighLevel, offering seamless communication and automation.',
+          logo: 'https://docs.innexumtech.com/img/logo.png',
+          operatingSystem: 'Web',
+          applicationCategory: 'Productivity',
+          softwareVersion: '1.0.0',
+          author: {
+            '@type': 'Organization',
+            name: 'Innexum Technologies',
+          },
+        }),
+      },
+    ],
 };
 
 export default config;
