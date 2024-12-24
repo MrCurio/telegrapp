@@ -5,7 +5,7 @@ title: 'How to Install TelegrApp - Telegram Integration for GoHighLevel'
 description: 'Learn how to install TelegrApp, the powerful integration between Telegram and GoHighLevel (GHL). Get started with Telegram messaging, workflow automation, and CRM integration.'
 keywords: [TelegrApp, GHL, GoHighLevel, Telegram integration, message automation, workflow automation, install app, setup guide]
 ---
-import ReactPlayer from 'react-player'
+import ResponsivePlayer from '../../src/components/ResponsivePlayer';
 import GlobalLink from '../../src/components/GlobalLink';
 
 # How to Install TelegrApp for GoHighLevel (GHL) Integration
@@ -37,8 +37,6 @@ With TelegrApp, you can now leverage **Telegram's powerful messaging** to stream
 
 ---
 
-<ReactPlayer 
-  playing={false}
-  controls 
-  url="https://storage.googleapis.com/msgsndr/V8t6fIU8uIpE2A4nA7VG/media/675f10336876bde0b1e1829e.mp4" 
+<ResponsivePlayer
+   url="https://storage.googleapis.com/msgsndr/V8t6fIU8uIpE2A4nA7VG/media/675f10336876bde0b1e1829e.mp4"
 />
