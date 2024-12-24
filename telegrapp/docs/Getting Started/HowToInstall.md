@@ -37,4 +37,8 @@ With TelegrApp, you can now leverage **Telegram's powerful messaging** to stream
 
 ---
 
-<ReactPlayer playing controls url='https://storage.googleapis.com/msgsndr/V8t6fIU8uIpE2A4nA7VG/media/675f10336876bde0b1e1829e.mp4' />
+<ReactPlayer 
+  playing={false}
+  controls 
+  url="https://storage.googleapis.com/msgsndr/V8t6fIU8uIpE2A4nA7VG/media/675f10336876bde0b1e1829e.mp4" 
+/>

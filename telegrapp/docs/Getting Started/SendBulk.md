@@ -3,8 +3,12 @@ sidebar_label: 'How to Send Bulk Messages'
 sidebar_position: 5
 ---
 
-# How to Send Bulk Messages with TelegrApp
+import GlobalLink from '../../src/components/GlobalLink';
 
+# How to Send Bulk Messages with TelegrApp
+:::tip
+<GlobalLink>Click here to Install TelegrApp Now and Enhance Your GHL with Telegram!</GlobalLink>
+:::
 The **TelegrApp** integration supports sending bulk messages to Telegram chats, groups, and channels. This feature allows you to efficiently communicate with multiple contacts by combining Workflow Automations with your Gohighlevel contact management.
 
 ---

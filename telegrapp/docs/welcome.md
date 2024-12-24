@@ -28,6 +28,9 @@ With **TelegrApp**, you can enjoy real-time messaging, manage multiple communica
 
 Curious about how TelegrApp can work for you? Watch the demo video below and see the power of **Telegram integration for GoHighLevel** in action! 🎉
 
-<ReactPlayer playing controls url='https://storage.googleapis.com/msgsndr/V8t6fIU8uIpE2A4nA7VG/media/675f10336876bde0b1e1829e.mp4' />
-
+<ReactPlayer 
+  playing={false}
+  controls 
+  url="https://storage.googleapis.com/msgsndr/V8t6fIU8uIpE2A4nA7VG/media/675f10336876bde0b1e1829e.mp4" 
+/>
 _TelegrApp Official Demo_
