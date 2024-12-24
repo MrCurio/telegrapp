@@ -17,7 +17,7 @@ export default function () {
             <div className="footer__title">Docs</div>
             <ul className="footer__items clean-list">
               <li className="footer__item">
-                <a className="footer__link-item" href="/docs">
+                <a className="footer__link-item" href="/docs/welcome">
                   Getting Started
                 </a>
               </li>
@@ -27,7 +27,7 @@ export default function () {
                 </a>
               </li>
               <li className="footer__item">
-                <a className="footer__link-item" href="/docs/customizing">
+                <a className="footer__link-item" href="/docs/welcome">
                   Customizing
                 </a>
               </li>
@@ -44,13 +44,13 @@ export default function () {
               <li className="footer__item">
                 <a
                   className="footer__link-item"
-                  href="/docs/contributing#setup"
+                  href="/docs/welcome"
                 >
                   Setup Guide
                 </a>
               </li>
               <li className="footer__item">
-                <a className="footer__link-item" href="/docs/contributing">
+                <a className="footer__link-item" href="/docs/welcome">
                   Contribution Guide
                 </a>
               </li>
@@ -159,6 +159,10 @@ export default function () {
               className="themedImage_node_modules-@docusaurus-theme-classic-lib-next-theme-ThemedImage-styles-module themedImage--dark_node_modules-@docusaurus-theme-classic-lib-next-theme-ThemedImage-styles-module footer__logo"
             />
           </div> */}
+        {/* Add the attribution statement */}
+        <p style={{ marginTop: '20px', fontSize: 'small', color: '#666' }}>
+            Icons provided by <a href="https://remixicon.com/" target="_blank" rel="noopener noreferrer">Remix Icon</a>. Telegram and its logo are trademarks of Telegram FZ-LLC.
+          </p>
         </div>
       </div>
       <div className="text--center"></div>

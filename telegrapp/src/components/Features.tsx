@@ -38,13 +38,6 @@ const features: FeatureTypes[] = [
     img: MdEdit,
     color: '#00b85c',
   },
-  {
-    title: 'Community-Driven',
-    description:
-      "100% built by the community. We're here because we love open source.",
-    img: MdPeopleOutline,
-    color: '#328aff',
-  },
 ];
 
 const Home: React.FunctionComponent<{}> = () => {
