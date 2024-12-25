@@ -21,20 +21,24 @@ const features: FeatureTypes[] = [
   {
     title: 'Easy to use',
     description:
-      'Just press under Install Now and select the subaccount. Just like that.',
+      `You can start using our service right away. Just press in any Install Now button and follow
+      the steps of our form. Just like that, you are using Telegram from your GoHighLevel account.`,
     img: MdOutlineDevices,
     color: '#894cff',
   },
   {
     title: 'Increase Opportunities',
     description:
-      'Through automated tasks like posting in channels, bulk messaging or adding contacts to groups, you will increase your business leads and ',
+      `Through automated tasks like posting in channels, bulk messaging or adding contacts to groups, 
+      you will not only increase your business leads, but also create fidelity programs.`,
     img: MdCode,
     color: '#ff5381',
   },
   {
     title: 'Customizable',
-    description: 'Easily style any of our components just the way you want.',
+    description: `Flexibility and customization are characteristics businesses use for 
+    making their brand and products more personal and unique. Telegram helps with this,
+    as it is the messaging service most customizable of all.`,
     img: MdEdit,
     color: '#00b85c',
   },
@@ -45,7 +49,7 @@ const Home: React.FunctionComponent<{}> = () => {
     <section className="" id="why">
       <div className="container text--center">
         <h1 className="hero__title gradient clip-text">
-          Why React Native Elements?
+          Why use TelegrApp?
         </h1>
         {/* <div>
             <Link
@@ -98,7 +102,7 @@ const Home: React.FunctionComponent<{}> = () => {
                       color={color}
                       style={{ marginRight: 8 }}
                     />
-                    {title}
+                    <span>{title}</span>
                   </h4>
                   <p
                     className="p--desc"
