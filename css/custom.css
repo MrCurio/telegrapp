@@ -716,6 +716,7 @@ a.card:hover {
 }
 
 .inline-flex-center {
-  display: inline-flex;
+  display: inline-flex;  
   align-items: center;
+  margin-right: 8px; /* Add spacing between icon and text */
 }
