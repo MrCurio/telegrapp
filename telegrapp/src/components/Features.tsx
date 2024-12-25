@@ -46,7 +46,7 @@ const features: FeatureTypes[] = [
 
 const Home: React.FunctionComponent<{}> = () => {
   return (
-    <section className="" id="why">
+    <section className="" id="features">
       <div className="container text--center">
         <h1 className="hero__title gradient clip-text">
           Why use TelegrApp?

@@ -6,22 +6,33 @@ import { SiExpo, SiReact } from 'react-icons/si';
 
 const Home: React.FunctionComponent<{}> = () => {
   return (
-    <section id="expo">
+    <section id="demo">
       <div className="container">
         <SectionHeader
           color="#5c5cbd"
-          header="Expo demo"
-          subheader="See in action, play a live demo published on Expo "
+          header="TelegrApp Demo"
+          subheader="See in action how the TelegrApp works "
           icon={SiExpo}
         />
       </div>
       <div className="container text--center  ">
         <div className="row margin-horiz--lg">
           <div className="col col--4">
-            <img
-              src="/img/website/app-preview2.png"
-              style={{ width: 200, left: 60, top: -100 }}
-            />
+          <video
+            src="/img/DemoTelegrapp_red.mp4" // Path to your video file
+            style={{
+              width: 800,
+              borderRadius: '12px', // Softer corners
+              boxShadow: '0 8px 16px rgba(0, 0, 0, 0.2)', // Soft shadow effect
+              overflow: 'hidden', // Ensure content respects rounded corners
+            }}
+            controls // Adds play/pause controls
+            autoPlay={true} // Optional: Start playing automatically
+            loop={true} // Optional: Loop the video
+            muted={true} // Optional: Mute the video by default
+          >
+            Your browser does not support the video tag.
+          </video>
           </div>
           <div className="col col--8 " style={{ alignSelf: 'center' }}>
             <div className="padding-vert--lg">
