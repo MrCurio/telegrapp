@@ -91,7 +91,7 @@ const config = {
             label: 'Documentation',
           },
           { to: '#features', label: 'Features', position: 'left' },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left'},
           { to: '#features', label: 'Contact', position: 'left' },
           { to: '#features', label: 'Install Now!', position: 'right' },
         ],

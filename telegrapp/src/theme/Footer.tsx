@@ -8,64 +8,63 @@ export default function () {
   const darkFooter = colorMode === 'dark' ? 'footer-dark' : '';
   return (
     <footer
-      style={{ fontSize: 'small' }}
       className={'footer text--sm ' + darkFooter}
     >
       <div className="container container-fluid">
         <div className="row footer__links">
+
           <div className="col footer__col">
-            <div className="footer__title">Docs</div>
+            <div className="footer__title"
+              style={{
+                fontFamily: 'Roboto, sans-serif',
+                fontSize: '1.5rem',
+                fontWeight: 'bold',
+                color: '#333',
+              }}
+            >
+              Documentation</div>
             <ul className="footer__items clean-list">
               <li className="footer__item">
                 <a className="footer__link-item" href="/docs/welcome">
-                  Getting Started
+                  Introduction to TelegrApp
                 </a>
               </li>
               <li className="footer__item">
-                <a className="footer__link-item" href="/blog">
-                  Blogs
+                <a className="footer__link-item" href="/docs/Getting Started/HowToInstall.md">
+                  How to Install
                 </a>
               </li>
               <li className="footer__item">
-                <a className="footer__link-item" href="/docs/welcome">
-                  Customizing
-                </a>
-              </li>
-              <li className="footer__item">
-                <a className="footer__link-item" href="/migration">
-                  Migration Guides
+                <a className="footer__link-item" href="/docs/Getting Started/TriggersActions.md">
+                  Triggers & Actions
                 </a>
               </li>
             </ul>
           </div>
+
           <div className="col footer__col">
-            <div className="footer__title">Contribution</div>
+            <div className="footer__title">FAQs</div>
             <ul className="footer__items clean-list">
               <li className="footer__item">
-                <a
-                  className="footer__link-item"
-                  href="/docs/welcome"
-                >
-                  Setup Guide
+                <a className="footer__link-item" href="/docs/FAQ/Messages">
+                  Messages
                 </a>
               </li>
               <li className="footer__item">
-                <a className="footer__link-item" href="/docs/welcome">
-                  Contribution Guide
+                <a className="footer__link-item" href="/docs/FAQ/Services">
+                  Services
                 </a>
               </li>
-              <a
-                href="https://github.com/react-native-elements/react-native-elements/issues/new/choose"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="footer__link-item"
-              >
-                Submit a bug or feature
-              </a>
+              <li className="footer__item">
+                <a className="footer__link-item" href="/docs/FAQ/Subscriptions">
+                  Subscriptions
+                </a>
+              </li>
             </ul>
           </div>
+          
           <div className="col footer__col">
-            <div className="footer__title">Community</div>
+            <div className="footer__title">About Us</div>
             <ul className="footer__items clean-list">
               <li className="footer__item">
                 <a
@@ -74,7 +73,7 @@ export default function () {
                   rel="noopener noreferrer"
                   className="footer__link-item"
                 >
-                  Discord server
+                  Contact
                 </a>
               </li>
               <li className="footer__item">
@@ -84,46 +83,12 @@ export default function () {
                   rel="noopener noreferrer"
                   className="footer__link-item"
                 >
-                  Twitter
-                </a>
-              </li>
-              <li className="footer__item">
-                <a
-                  href="https://github.com/react-native-elements/react-native-elements/discussions"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="footer__link-item"
-                >
-                  GitHub Discussions
+                  Blog
                 </a>
               </li>
             </ul>
           </div>
-          <div className="col footer__col">
-            <div className="footer__title">More</div>
-            <ul className="footer__items clean-list">
-              <li className="footer__item">
-                <a
-                  href="https://stackoverflow.com/questions/tagged/react-native-elements"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="footer__link-item"
-                >
-                  StackOverflow
-                </a>
-              </li>
-              <li className="footer__item">
-                <a
-                  href="https://marketplace.visualstudio.com/items?itemName=rne.snippets"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="footer__link-item"
-                >
-                  VS Code Extension
-                </a>
-              </li>
-            </ul>
-          </div>
+
         </div>
         <div className="footer__bottom text--center">
           <div className="margin-bottom--sm">

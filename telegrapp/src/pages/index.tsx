@@ -18,13 +18,14 @@ const Home: React.FunctionComponent<{}> = () => {
     <Layout>
       <Hero />
       <Features />
-      <Installation />
+      {/*<Installation /> */}
       <RunOnExpo />
       {/* <FigmaKit /> */}
-      <VScodeExt />
-      <Sponsors />
+      {/* <VScodeExt /> */}
+      {/*<Sponsors />*/}
       <Community />
       {/* <StartNow /> */}
+      {/* */}
     </Layout>
   );
 };

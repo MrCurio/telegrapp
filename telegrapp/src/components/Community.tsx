@@ -25,16 +25,16 @@ const Home: React.FunctionComponent<{}> = () => {
                   height: '100%',
                   backgroundColor: '#1DA1F2',
                   color: 'white',
-                }}
-                href="https://twitter.com/rn_elements"
+                }} 
+                href="https://discord.com/invite/e9RBHjkKHa"
                 className="card shadow--md"
-              >
+              > 
                 <div className="card__body padding--lg">
                   <h3 className="margin-bottom--sm ">
                     <SiX fill="#fff" />
                   </h3>
-                  <h4>Stay up to date </h4>
-                  <b>Follow us on Twitter to get the latest updates.</b>
+                  <h4>GoHighLevel Approved</h4>
+                  <b>Download our application through the official Marketplace</b>
                 </div>
               </Link>
             </div>
@@ -48,10 +48,9 @@ const Home: React.FunctionComponent<{}> = () => {
                   <h3 className="margin-bottom--sm ">
                     <SiDiscord fill="#fff" />
                   </h3>
-                  <h4>Talk to us</h4>
+                  <h4>Easy Management</h4>
                   <b>
-                    Have any other question? or like to say Hi! to the RNE
-                    community,
+                    Just use Workflows to start making your business efficient
                   </b>
                 </div>
               </Link>
@@ -59,17 +58,15 @@ const Home: React.FunctionComponent<{}> = () => {
             <div className="col col--4">
               <Link
                 style={{ backgroundColor: '#F58025', color: 'white' }}
-                href="https://stackoverflow.com/questions/tagged/react-native-elements"
                 className="card shadow--md"
               >
                 <div className="card__body padding--lg">
                   <h3 className="margin-bottom--sm ">
                     <SiStackoverflow fill="#fff" />
                   </h3>
-                  <h4>Any question?</h4>
+                  <h4>The Next Boom</h4>
                   <b>
-                    Have any other question? or like to say Hi! to the RNE
-                    community,
+                    Telegram will be the most used RRSS, be part of the change
                   </b>
                 </div>
               </Link>

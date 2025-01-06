@@ -17,11 +17,11 @@ const Home: React.FunctionComponent<{}> = () => {
       </div>
       <div className="container text--center  ">
         <div className="row margin-horiz--lg">
-          <div className="col col--4">
+          <div className="col col--8">
           <video
             src="/img/DemoTelegrapp_red.mp4" // Path to your video file
             style={{
-              width: 800,
+              width: '100%', // Make the video responsive to the column width
               borderRadius: '12px', // Softer corners
               boxShadow: '0 8px 16px rgba(0, 0, 0, 0.2)', // Soft shadow effect
               overflow: 'hidden', // Ensure content respects rounded corners
@@ -34,13 +34,17 @@ const Home: React.FunctionComponent<{}> = () => {
             Your browser does not support the video tag.
           </video>
           </div>
-          <div className="col col--8 " style={{ alignSelf: 'center' }}>
+          <div className="col col--4 " style={{ alignSelf: 'center' }}>
             <div className="padding-vert--lg">
-              <h1>Preview on Expo Go</h1>
-              Use android phone to scan the QR code with your
+              <h1>Try yourself!</h1>
+              <p
+                    className="p--desc"
+                    style={{ lineHeight: 1.4, fontSize: '1.1rem' }}
+                  >
+                    <a href="https://expo.dev/client">Install now</a> the app and check how easy it is.
+                  </p>
               <br />
-              <a href="https://expo.dev/client">Expo Go</a> app to preview the
-              example.
+              {/*
               <div className="padding-vert--lg hide-on-small">
                 <SiReact style={{ fontSize: 128, opacity: 0.3 }} />
                 <img
@@ -70,7 +74,7 @@ const Home: React.FunctionComponent<{}> = () => {
                 >
                   View on Github
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
